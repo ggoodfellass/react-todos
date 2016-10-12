@@ -1,3 +1,5 @@
-let messageBox = 'am complied';
+import React from 'react';
+import { render } from 'react-dom';
+import App from 'components/app';
 
-console.log(messageBox);
+render(<App />, document.getElementById('app'));
