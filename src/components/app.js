@@ -1,4 +1,5 @@
 import React from 'react';
+import TodoList from './todo-list';
 
 const todos = [
   {
@@ -16,6 +17,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h3> React Todos</h3>
+        <TodoList />
       </div>
       );
   }
